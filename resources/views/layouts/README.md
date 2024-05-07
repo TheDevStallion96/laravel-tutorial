@@ -1,6 +1,6 @@
-# Layout Components
+# Blade Views:
 
-1. Main Layout: `app.blade.php`
+## 1. Main Layout: `app.blade.php`
 ```blade
 <body class="app-body">
     <div class="app-container">
@@ -22,7 +22,7 @@
     </div>
 </body>
 ```
-2. Auth Layout: `auth.blade.php`
+## 2. Auth Layout: `auth.blade.php`
 ```blade
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
@@ -56,7 +56,8 @@
 </html>
 ```
 
-## CSS Classes:
+# CSS Classes:
+## 1. Main Layout:
 ```postcss
 /* File: resources/css/custom.css */
 
